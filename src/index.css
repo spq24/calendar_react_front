@@ -1,0 +1,43 @@
+body {
+    width: 500px;
+    margin: 100px auto;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    line-height: 1.5;
+    padding-bottom: 200px;
+}
+
+a {
+    color: darkred;
+    text-decoration: none;
+}
+
+.submit-button {
+    background: #CC0000;
+    color: #ffffff;
+    cursor: pointer;
+    border: 0;
+    box-shadow: none;
+    border-radius: 0px;
+    font-size: 20px;
+    padding: 10px;
+}
+
+.submit-button:disabled {
+    background: #BBBBBB;
+    cursor: not-allowed;
+}
+
+.appointment {
+    padding-top: 10px;
+    border-bottom: solid 1px #ccc;
+}
+
+.home-appear {
+    opacity: 0.01;
+}
+
+.home-appear.home-appear-active {
+    opacity: 1;
+    transition: opacity .5s ease-in;
+}

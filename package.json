@@ -1,0 +1,32 @@
+{
+  "name": "calendar_react_front",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "immutability-helper": "^2.4.0",
+    "jquery": "^3.2.1",
+    "moment": "^2.19.1",
+    "react": "^16.0.0",
+    "react-bootstrap": "^0.31.3",
+    "react-datetime": "^2.10.3",
+    "react-dom": "^16.0.0",
+    "react-router-dom": "^4.2.2",
+    "react-scripts": "1.0.14",
+    "react-transition-group": "1.1.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "devDependencies": {
+    "enzyme": "^3.1.0",
+    "enzyme-adapter-react-16": "^1.0.1",
+    "react-addons-test-utils": "^15.6.2",
+    "react-dom": "^16.0.0",
+    "react-scripts": "1.0.14",
+    "react-test-renderer": "^16.0.0"
+  }
+}
